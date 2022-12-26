@@ -1,0 +1,144 @@
+.pinterestlogo {
+  margin-left: 22%
+}
+.navbar {
+  color: black;
+  font-family: helvetica;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 8px;
+  margin-top: 12px;
+  justify-content: left;
+}
+a {
+  position: left;
+}
+
+.Navbutton {
+  position: end;
+  padding-right: 30px;
+  margin-top: 40%;
+  display:list-item;
+}
+.Left-Navbar {
+  float: left;
+  padding: 5px;
+  margin-left: 15px;
+}
+.navbuttonsright {
+  padding-right: 2%;
+  margin: 5%;
+  justify-content:space-between ;
+}
+a:hover {
+  text-decoration-color: white;
+  border-radius: 25px;
+  background-color: black;
+  padding: 12px;
+  color: white;
+  font-weight: 50%;
+}
+input {
+  min-width: 420px;
+  max-width: 100%;
+  float: left;
+  position: left;
+  width: 100%;
+  height: 35px;
+  border: 0px;
+  display: flex;
+  border-radius: 35px;
+  background-color: rgb(233, 233, 233);
+  background-image: url('https://cdn0.iconfinder.com/data/icons/very-basic-2-android-l-lollipop-icon-pack/24/search-512.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-indent: 35px;
+  background-position: 2%;
+  background-size: 4%;
+  /* Extra Styling */
+  padding: 5px 3px;
+  transition: 0.3s;
+}
+input:hover {
+  border: 2px;
+  border-color: #03a9f4;
+  display: list-item; 
+}
+form {
+  max-width: 100%;
+  width: fit-content;
+  position: relative;
+  margin-top: 2%;
+}
+.nav {
+  width: 300px;
+  min-height: calc(100vh - 121px);
+  background-color: #03a9f4;
+  position: absolute;
+  left: -300px;
+  transition: .3s all;
+}
+.navcontainer { 
+  width: max-content;
+}
+.navbuttonsright {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+.flex-container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  max-width: 100%;
+}
+.flexcontainer {
+  align-items: center;
+
+  display: flex;
+  justify-content: space-around;
+
+  margin-left: 5%;
+}
+.flexcolumn {
+  padding: 2%;
+}
+main {
+  background-color: white;
+  color: white;
+  font-family: "helvetica";
+  font-style: normal;
+  text-decoration-style: inherit;
+  text-align: center;
+}
+img {
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-left: 0;
+  padding: 2%;
+  border: 0;
+  float:initial;
+  position: inherit;
+}
+img:hover {
+  opacity: 40%;
+}
+.notificaciones {
+  opacity: 100%;
+  ;
+}
+.nav #img {
+  align-items: flex-end;
+  justify-content: end;
+  margin-top: 50px;
+  margin-left: 25px;
+  bottom: 0;
+}
+
+@media screen and (min-width: 480px) {
+  .flexcolumn {
+    width: 200px;
+    background-color: transparent;
+  }
+}
